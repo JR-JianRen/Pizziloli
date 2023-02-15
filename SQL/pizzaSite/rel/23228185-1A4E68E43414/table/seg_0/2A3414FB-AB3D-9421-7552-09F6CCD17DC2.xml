@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A3414FB-AB3D-9421-7552-09F6CCD17DC2" name="product">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>F76570E7-B6FD-89BB-D12D-364F147FC35A</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="product_id" id="E6F645C1-10AE-E865-182C-12EDA127F972">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>902EFA1E-411D-83D8-B43A-90FD751E8341</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="24FF7752-B9A8-7C52-3023-DE9FB6CDEFB4">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>F72FBCD6-6C94-EC6B-08BF-7AE0FDE48A69</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="E843E470-F591-3147-54AC-BD7E3D2B2A35">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>62EA567C-2E06-3260-E9B2-D9A6B2BD6908</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="picture" id="C96362CE-5C42-E184-B74D-EFF30515855A">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>58AD8DE2-3525-67BA-A3C8-43E4830AD3F9</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="catergory_category_id" id="F25BD57B-E784-327D-D4E6-62E1268E1FD7">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>4AA0E399-80A7-6948-3B27-BB0FB21D5089</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="866F184A-631E-1AA6-DD77-DFAB2567A75E" referredColumn="2091E313-7322-5F45-DCB4-9E7869EBE4E0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C8D9171-D222-F9CC-C22D-61E9F016B696" name="product_PK">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>76A39F27-F951-6577-E586-3D4CC9EF2503</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6F645C1-10AE-E865-182C-12EDA127F972"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F48D5EDB-92C8-B325-4C06-03DA5B0B071D" name="product_catergory_FK">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>552603A7-DC7F-4FE0-F05E-D875FE87AC5B</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F25BD57B-E784-327D-D4E6-62E1268E1FD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

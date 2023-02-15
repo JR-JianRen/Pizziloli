@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="691CB02E-99EE-0500-5984-616AFB5517D9" name="user">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>E67AB739-3064-C254-8F4A-5EADFF3A4A90</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="E70C4DE3-5437-E585-D158-099C2BB2A97D">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>B3BEF8F9-FFD3-7F2F-BB44-7BE6D913C548</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="C52B5E82-EDCB-2702-4822-7891EB0C4B97">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>2EA6A746-BB6D-2BF7-9388-283863C58DA0</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="2DB9734F-2A8C-C405-3E3A-5CAD963F48F5">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>A94FD3E6-E6BD-17CB-709D-358C7C27F82D</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28645694-3C98-96F1-37B7-C61DE47805D1" name="user_PK">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<generatorID>07E69541-9AEA-591E-6AEA-EBC07C387735</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E70C4DE3-5437-E585-D158-099C2BB2A97D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
