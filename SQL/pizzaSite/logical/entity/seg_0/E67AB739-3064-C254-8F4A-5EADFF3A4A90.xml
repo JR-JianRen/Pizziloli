@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="user_id" id="B3BEF8F9-FFD3-7F2F-BB44-7BE6D913C548">
+<Attribute name="id" id="B3BEF8F9-FFD3-7F2F-BB44-7BE6D913C548">
 <createdBy>0jian</createdBy>
 <createdTime>2023-02-10 12:20:28 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>

@@ -1,15 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6563A95D-0B55-091D-60EC-4FF94EA24E73" name="Relation_2">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56506E96-206E-6199-7840-F76C04444B18" name="Relation_4">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="order_order_id" id="F0D1B8CC-EBFA-49E6-5008-50B9CE3BE20B">
+<Column name="order_id" id="8354C7A7-71DF-7616-9A2A-5C33718C333B">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,12 +18,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="637615F7-0B76-A8F3-8024-DABD1623C45D" referredColumn="B1D6A30C-AA66-CEC9-9397-7B8EA355E0DC"/>
+<colAssociation fkAssociation="5CC71B1D-1690-5875-F285-365275D49132" referredColumn="696A71B6-EEFB-3473-0990-8D9A887BE87E"/>
 </associations>
 </Column>
-<Column name="product_product_id" id="FF322582-5805-22B9-596F-63AA2B2D8F10">
+<Column name="product_id" id="97DBA8D4-BDEA-2B67-A5F3-3540701A6476">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,43 +32,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="391BB2E0-4F47-6D11-707F-4BDEBCF73DBC" referredColumn="E6F645C1-10AE-E865-182C-12EDA127F972"/>
+<colAssociation fkAssociation="4BF44417-14A6-025F-5E14-1041F7E270DD" referredColumn="EF81127B-C12A-715A-699D-8DB3D4463298"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="832964E8-5346-37A7-0E7E-340607B1024A" name="Relation_2_PK">
+<ind_PK_UK id="968B9EC4-57B9-ACBE-FF5B-9FE575DCC665" name="Relation_4_PK">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F0D1B8CC-EBFA-49E6-5008-50B9CE3BE20B"/>
-<colUsage columnID="FF322582-5805-22B9-596F-63AA2B2D8F10"/>
+<colUsage columnID="8354C7A7-71DF-7616-9A2A-5C33718C333B"/>
+<colUsage columnID="97DBA8D4-BDEA-2B67-A5F3-3540701A6476"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A42ADE99-FCF5-FF93-754E-F9532B856D13" name="Relation_2_order_FK">
+<ind_PK_UK id="4CA4E2B9-AB86-6801-F195-C9638604E2AF" name="Relation_4_order_FK">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>BC3DCB56-97CB-3964-CA1D-58AE85FAD49D</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>1A883756-1367-313E-CC93-EA1809763468</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F0D1B8CC-EBFA-49E6-5008-50B9CE3BE20B"/>
+<colUsage columnID="8354C7A7-71DF-7616-9A2A-5C33718C333B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="95AA7A56-DDE0-F1AA-F1B9-F3EC1ED41305" name="Relation_2_product_FK">
+<ind_PK_UK id="5CED5B7F-7ECA-0EBC-856B-51E46C390C1C" name="Relation_4_product_FK">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>BC3DCB56-97CB-3964-CA1D-58AE85FAD49D</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>1A883756-1367-313E-CC93-EA1809763468</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FF322582-5805-22B9-596F-63AA2B2D8F10"/>
+<colUsage columnID="97DBA8D4-BDEA-2B67-A5F3-3540701A6476"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

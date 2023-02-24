@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F76570E7-B6FD-89BB-D12D-364F147FC35A" name="product">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A6E886E-1A47-A7DB-19DF-A91637611E89" name="product">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 12:04:53 UTC</createdTime>
+<createdTime>2023-02-24 20:46:36 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <engineerTo>
 <item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="product_id" id="902EFA1E-411D-83D8-B43A-90FD751E8341">
+<Attribute name="id" id="D748298E-3299-A522-B44D-7F47552D35AB">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 12:21:56 UTC</createdTime>
+<createdTime>2023-02-24 20:46:46 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <engineerTo>
 <item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="F72FBCD6-6C94-EC6B-08BF-7AE0FDE48A69">
+<Attribute name="name" id="90D4B303-55FE-B822-FFF5-7710ED913EB9">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 12:22:15 UTC</createdTime>
+<createdTime>2023-02-24 20:46:56 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <engineerTo>
 <item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
@@ -40,42 +40,42 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="price" id="62EA567C-2E06-3260-E9B2-D9A6B2BD6908">
+<Attribute name="price" id="FE8F88C4-ACF3-BD02-9CC2-2934523C069E">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 12:52:03 UTC</createdTime>
+<createdTime>2023-02-24 20:47:38 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <engineerTo>
 <item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="picture" id="58AD8DE2-3525-67BA-A3C8-43E4830AD3F9">
+<Attribute name="picture" id="87503592-57A1-6C59-754A-3227C0F4E6D0">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 12:22:36 UTC</createdTime>
-<ownerDesignName>PizzaSite</ownerDesignName>
-<engineerTo>
-<item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="category_id" id="4AA0E399-80A7-6948-3B27-BB0FB21D5089">
-<createdBy>0jian</createdBy>
-<createdTime>2023-02-10 12:23:44 UTC</createdTime>
-<generatorID>552603A7-DC7F-4FE0-F05E-D875FE87AC5B</generatorID>
+<createdTime>2023-02-24 20:48:13 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <engineerTo>
 <item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="19E57D7F-9A33-A645-FE6C-57F55480563B">
+<createdBy>0jian</createdBy>
+<createdTime>2023-02-24 20:51:34 UTC</createdTime>
+<generatorID>1D807486-0CE1-3ADB-3D61-C1F23FB42E0C</generatorID>
+<ownerDesignName>PizzaSite</ownerDesignName>
+<engineerTo>
+<item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
+</engineerTo>
 <referedAttribute>E88B5AB3-8607-4B74-5EB4-6A71EB351526</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -84,16 +84,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="76A39F27-F951-6577-E586-3D4CC9EF2503" name="product PK">
+<identifier id="2CAF4B2B-92F6-0FD1-20C9-359208A7901F" name="product PK">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 12:22:13 UTC</createdTime>
+<createdTime>2023-02-24 20:46:55 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <engineerTo>
 <item key="23228185-F4EA-30F9-D599-1A4E68E43414" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>902EFA1E-411D-83D8-B43A-90FD751E8341</attributeRef>
+<attributeRef>D748298E-3299-A522-B44D-7F47552D35AB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

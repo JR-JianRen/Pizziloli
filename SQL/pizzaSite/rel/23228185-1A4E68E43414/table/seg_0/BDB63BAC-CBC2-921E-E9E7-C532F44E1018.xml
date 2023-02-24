@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A3414FB-AB3D-9421-7552-09F6CCD17DC2" name="product">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDB63BAC-CBC2-921E-E9E7-C532F44E1018" name="product">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>F76570E7-B6FD-89BB-D12D-364F147FC35A</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>8A6E886E-1A47-A7DB-19DF-A91637611E89</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="product_id" id="E6F645C1-10AE-E865-182C-12EDA127F972">
+<Column name="id" id="EF81127B-C12A-715A-699D-8DB3D4463298">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>902EFA1E-411D-83D8-B43A-90FD751E8341</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>D748298E-3299-A522-B44D-7F47552D35AB</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="name" id="24FF7752-B9A8-7C52-3023-DE9FB6CDEFB4">
+<Column name="name" id="AEC4186A-9607-9604-26DE-8FF93E077562">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>F72FBCD6-6C94-EC6B-08BF-7AE0FDE48A69</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>90D4B303-55FE-B822-FFF5-7710ED913EB9</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,24 +31,25 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="price" id="E843E470-F591-3147-54AC-BD7E3D2B2A35">
+<Column name="price" id="4F22BE9C-9606-30BD-E084-03FE3C13ACC0">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>62EA567C-2E06-3260-E9B2-D9A6B2BD6908</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>FE8F88C4-ACF3-BD02-9CC2-2934523C069E</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="picture" id="C96362CE-5C42-E184-B74D-EFF30515855A">
+<Column name="picture" id="A9F22678-9939-38F7-2A0A-3C63B17AC215">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>58AD8DE2-3525-67BA-A3C8-43E4830AD3F9</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>87503592-57A1-6C59-754A-3227C0F4E6D0</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -56,12 +57,11 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="catergory_category_id" id="F25BD57B-E784-327D-D4E6-62E1268E1FD7">
+<Column name="category_id" id="F55E8E93-5601-51E5-5C50-212C60B225B5">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>4AA0E399-80A7-6948-3B27-BB0FB21D5089</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>19E57D7F-9A33-A645-FE6C-57F55480563B</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -69,32 +69,32 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="866F184A-631E-1AA6-DD77-DFAB2567A75E" referredColumn="2091E313-7322-5F45-DCB4-9E7869EBE4E0"/>
+<colAssociation fkAssociation="8A7CE46F-771C-0B16-D894-0660AE7BAAE7" referredColumn="7DE9CA03-0306-915E-42B7-7DC720D86F41"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4C8D9171-D222-F9CC-C22D-61E9F016B696" name="product_PK">
+<ind_PK_UK id="CF977881-06DE-500F-6C5F-C13AA0FB3432" name="product_PK">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>76A39F27-F951-6577-E586-3D4CC9EF2503</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>2CAF4B2B-92F6-0FD1-20C9-359208A7901F</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E6F645C1-10AE-E865-182C-12EDA127F972"/>
+<colUsage columnID="EF81127B-C12A-715A-699D-8DB3D4463298"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F48D5EDB-92C8-B325-4C06-03DA5B0B071D" name="product_catergory_FK">
+<ind_PK_UK id="613996DA-633B-6664-9079-B8B0722DD0B6" name="product_category_FK">
 <createdBy>0jian</createdBy>
-<createdTime>2023-02-10 18:20:53 UTC</createdTime>
-<generatorID>552603A7-DC7F-4FE0-F05E-D875FE87AC5B</generatorID>
+<createdTime>2023-02-24 20:53:02 UTC</createdTime>
+<generatorID>1D807486-0CE1-3ADB-3D61-C1F23FB42E0C</generatorID>
 <ownerDesignName>PizzaSite</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F25BD57B-E784-327D-D4E6-62E1268E1FD7"/>
+<colUsage columnID="F55E8E93-5601-51E5-5C50-212C60B225B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

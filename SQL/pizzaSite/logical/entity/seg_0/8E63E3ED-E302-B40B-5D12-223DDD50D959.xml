@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="order_id" id="EDB53475-BC3C-8C62-1B1F-14ACAEC17BB6">
+<Attribute name="id" id="EDB53475-BC3C-8C62-1B1F-14ACAEC17BB6">
 <createdBy>0jian</createdBy>
 <createdTime>2023-02-10 12:47:05 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
@@ -62,8 +62,9 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT040</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="total_price" id="98C3C408-B780-72FE-6269-A4C8F6D7777B">
 <createdBy>0jian</createdBy>
@@ -80,7 +81,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,12,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="datum" id="C80295DC-756D-B426-5210-8F1182AB2849">
+<Attribute name="date" id="C80295DC-756D-B426-5210-8F1182AB2849">
 <createdBy>0jian</createdBy>
 <createdTime>2023-02-10 12:48:48 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
@@ -103,9 +104,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
