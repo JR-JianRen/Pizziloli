@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E63E3ED-E302-B40B-5D12-223DDD50D959" name="order">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E63E3ED-E302-B40B-5D12-223DDD50D959" name="Order">
 <createdBy>0jian</createdBy>
 <createdTime>2023-02-10 12:33:12 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
@@ -53,7 +53,7 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="placed_order" id="673EDA3E-4472-6443-97AF-43BF9A1F9D9D">
+<Attribute name="order_status" id="673EDA3E-4472-6443-97AF-43BF9A1F9D9D">
 <createdBy>0jian</createdBy>
 <createdTime>2023-02-10 12:53:55 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
@@ -62,9 +62,8 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="total_price" id="98C3C408-B780-72FE-6269-A4C8F6D7777B">
 <createdBy>0jian</createdBy>

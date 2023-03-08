@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E67AB739-3064-C254-8F4A-5EADFF3A4A90" name="user">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E67AB739-3064-C254-8F4A-5EADFF3A4A90" name="User">
 <createdBy>0jian</createdBy>
 <createdTime>2023-02-10 12:05:07 UTC</createdTime>
 <ownerDesignName>PizzaSite</ownerDesignName>
